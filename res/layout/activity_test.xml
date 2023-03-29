@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:orientation="vertical" >
+    
+<TextView 
+            android:id="@+id/Eng_Show_Test"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:layout_weight="5"
+       		android:gravity="center"
+       		android:textSize = " 50dp"
+       		android:textColor="#ffffff"
+            android:text="ENGLISH"
+            />
+    <Button 
+        	android:id="@+id/Chi_Show_Test1"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:gravity="center"
+       		android:button="@null"
+       		android:background="@drawable/bt_shape2"
+       		android:textColor="#fffff0"
+       		android:layout_margin="2dp"
+       		android:layout_weight="1"
+            android:text="ENGLISH" />
+    <Button
+            android:id="@+id/Chi_Show_Test2"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:gravity="center"
+       		android:button="@null"
+       		android:background="@drawable/bt_shape2"
+       		android:layout_weight="1"
+       		android:textColor="#fffff0"
+       		android:layout_margin="2dp"
+            android:text="ENGLISH" />
+    <Button 
+        	android:id="@+id/Chi_Show_Test3"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:gravity="center"
+       		android:textColor="#fffff0"
+       		android:layout_margin="2dp"
+       		android:button="@null"
+       		android:background="@drawable/bt_shape2"
+       		android:layout_weight="1"
+            android:text="ENGLISH"/>
+    <Button 
+        	android:id="@+id/Chi_Show_Test4"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:gravity="center"
+       		android:textColor="#fffff0"
+       		android:layout_margin="2dp"
+       		android:button="@null"
+       		android:background="@drawable/bt_shape2"
+       		android:layout_weight="1"
+            android:text="ENGLISH"/>
+    <Button 
+        	android:id="@+id/Chi_Show_Test5"
+        	android:layout_width="fill_parent"
+       		android:layout_height="0dp"
+       		android:layout_weight="1"
+       		android:textColor="#fffff0"
+       		android:layout_margin="2dp"
+       		android:gravity="center"
+       		android:button="@null"
+       		android:background="@drawable/bt_shape2"
+            android:text="不记得了"
+            />
+	
+
+           
+</LinearLayout>
